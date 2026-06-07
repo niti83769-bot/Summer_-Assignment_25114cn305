@@ -12,7 +12,7 @@ int main() {
     else if (n == 2) 
     {
         printf("Nth Fibonacci number = %d", b);
-    } 
+    }
     else 
     {
         for (int i = 3; i <= n; i++)
