@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (){
-int  n,rem, sum=0,fact=1;
+int  n,rem,i, sum=0,fact;
 printf("enter the n:");
 scanf("%d",&n);
 int temp=n;
@@ -8,7 +8,7 @@ int temp=n;
  {
      rem=temp%10;
      fact=1;
-     for(int i=1;i<=rem;i++)
+     for(i=1;i<=rem;i++)
      {
          fact=fact*i;
      }
