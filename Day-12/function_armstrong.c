@@ -1,8 +1,15 @@
 #include<stdio.h>
-int main(){
+void armstrong();
+int main()
+{
+    armstrong();
+    return 0;
+}
+void armstrong()
+{
     int num, original, rem, sum=0;
-    printf("enter a number:");
-    scanf("%d",&num);
+    rintf("enter a number:");
+    scanf("%d",num);
     original=num;
     while(num!=0)
     {
@@ -18,5 +25,3 @@ int main(){
         {
             printf("%d is not an armstrong number",original);
         }
-        return 0;
-    }
