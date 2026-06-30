@@ -8,8 +8,8 @@ int main()
 void armstrong()
 {
     int num, original, rem, sum=0;
-    rintf("enter a number:");
-    scanf("%d",num);
+    printf("enter a number:");
+    scanf("%d",&num);
     original=num;
     while(num!=0)
     {
@@ -25,3 +25,4 @@ void armstrong()
         {
             printf("%d is not an armstrong number",original);
         }
+}
